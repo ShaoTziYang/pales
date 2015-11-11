@@ -1,0 +1,12 @@
+..\..\Output\generator.o: ..\..\User\nmea_decode\src\generator.c
+..\..\Output\generator.o: ..\..\User\nmea_decode\include\nmea/gmath.h
+..\..\Output\generator.o: ..\..\User\nmea_decode\include\nmea/info.h
+..\..\Output\generator.o: ..\..\User\nmea_decode\include\nmea/time.h
+..\..\Output\generator.o: ..\..\User\nmea_decode\include\nmea/config.h
+..\..\Output\generator.o: C:\Keil\ARM\RV31\INC\assert.h
+..\..\Output\generator.o: ..\..\User\nmea_decode\include\nmea/generate.h
+..\..\Output\generator.o: ..\..\User\nmea_decode\include\nmea/sentence.h
+..\..\Output\generator.o: ..\..\User\nmea_decode\include\nmea/generator.h
+..\..\Output\generator.o: ..\..\User\nmea_decode\include\nmea/context.h
+..\..\Output\generator.o: C:\Keil\ARM\RV31\INC\string.h
+..\..\Output\generator.o: C:\Keil\ARM\RV31\INC\stdlib.h

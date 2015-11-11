@@ -1,0 +1,13 @@
+..\..\Output\parse.o: ..\..\User\nmea_decode\src\parse.c
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/tok.h
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/config.h
+..\..\Output\parse.o: C:\Keil\ARM\RV31\INC\assert.h
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/parse.h
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/sentence.h
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/info.h
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/time.h
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/context.h
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/gmath.h
+..\..\Output\parse.o: ..\..\User\nmea_decode\include\nmea/units.h
+..\..\Output\parse.o: C:\Keil\ARM\RV31\INC\string.h
+..\..\Output\parse.o: C:\Keil\ARM\RV31\INC\stdio.h

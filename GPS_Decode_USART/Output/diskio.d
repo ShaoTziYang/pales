@@ -1,0 +1,17 @@
+..\..\Output\diskio.o: ..\..\User\ff9\diskio.c
+..\..\Output\diskio.o: ..\..\User\ff9\diskio.h
+..\..\Output\diskio.o: ..\..\User\ff9\integer.h
+..\..\Output\diskio.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\Output\diskio.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\Output\diskio.o: C:\Keil\ARM\RV31\INC\stdint.h
+..\..\Output\diskio.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\Output\diskio.o: ..\..\User\stm32f10x_conf.h
+..\..\Output\diskio.o: ..\..\Libraries\FWlib\inc\stm32f10x_dma.h
+..\..\Output\diskio.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\Output\diskio.o: ..\..\Libraries\FWlib\inc\stm32f10x_fsmc.h
+..\..\Output\diskio.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\Output\diskio.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\Output\diskio.o: ..\..\Libraries\FWlib\inc\stm32f10x_sdio.h
+..\..\Output\diskio.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\Output\diskio.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\Output\diskio.o: ..\..\User\sdcard\bsp_sdio_sdcard.h
