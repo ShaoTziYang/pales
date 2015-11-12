@@ -2,13 +2,14 @@
 #include "stm32f10x.h"
 #include "bsp_usart1.h"
 #include "gps_config.h"
-#include "bsp_sdio_sdcard.h"
-#include "diskio.h"
-#include "ff.h"
+#include "ff.h"			 
 #include <string.h>
 
+//test
+#include "temp.h"
 
-extern void nmea_decode_test(void);
+
+//extern void nmea_decode_test(void);
 
 
 int main(void)
@@ -24,6 +25,4 @@ int main(void)
     nmea_decode_test();
 
     while(1);
-  
-  
-}
+ }

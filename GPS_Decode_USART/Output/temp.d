@@ -1,0 +1,17 @@
+..\..\Output\temp.o: ..\..\User\temp\temp.c
+..\..\Output\temp.o: ..\..\User\temp\temp.h
+..\..\Output\temp.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\Output\temp.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\Output\temp.o: C:\Keil\ARM\RV31\INC\stdint.h
+..\..\Output\temp.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\Output\temp.o: ..\..\User\stm32f10x_conf.h
+..\..\Output\temp.o: ..\..\Libraries\FWlib\inc\stm32f10x_dma.h
+..\..\Output\temp.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\Output\temp.o: ..\..\Libraries\FWlib\inc\stm32f10x_fsmc.h
+..\..\Output\temp.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\Output\temp.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\Output\temp.o: ..\..\Libraries\FWlib\inc\stm32f10x_sdio.h
+..\..\Output\temp.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\Output\temp.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\Output\temp.o: C:\Keil\ARM\RV31\INC\stdio.h
+..\..\Output\temp.o: C:\Keil\ARM\RV31\INC\stdarg.h

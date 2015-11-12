@@ -28,9 +28,8 @@
 ..\..\Output\main.o: ..\..\User\nmea_decode\include\nmea/./parse.h
 ..\..\Output\main.o: ..\..\User\nmea_decode\include\nmea/./parser.h
 ..\..\Output\main.o: ..\..\User\nmea_decode\include\nmea/./context.h
-..\..\Output\main.o: ..\..\User\sdcard\bsp_sdio_sdcard.h
-..\..\Output\main.o: ..\..\User\ff9\diskio.h
-..\..\Output\main.o: ..\..\User\ff9\integer.h
 ..\..\Output\main.o: ..\..\User\ff9\ff.h
+..\..\Output\main.o: ..\..\User\ff9\integer.h
 ..\..\Output\main.o: ..\..\User\ff9\ffconf.h
 ..\..\Output\main.o: C:\Keil\ARM\RV31\INC\string.h
+..\..\Output\main.o: ..\..\User\temp\temp.h
