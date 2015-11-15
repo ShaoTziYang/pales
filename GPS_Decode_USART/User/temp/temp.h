@@ -6,7 +6,7 @@
 
 
 void USART3_Config(void);
-int USART3_printf(USART_TypeDef* USARTx, char *Data,...);
+int USART3_printf(void);
 
 
 extern char *get_rebuff(uint8_t *len);

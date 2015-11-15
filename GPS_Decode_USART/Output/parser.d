@@ -18,10 +18,15 @@
 ..\..\Output\parser.o: ..\..\User\stm32f10x_conf.h
 ..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_dma.h
 ..\..\Output\parser.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_exti.h
+..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_flash.h
 ..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_fsmc.h
 ..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_i2c.h
 ..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
 ..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_sdio.h
+..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_spi.h
+..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
 ..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
 ..\..\Output\parser.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\Output\parser.o: C:\Keil\ARM\RV31\INC\stdio.h

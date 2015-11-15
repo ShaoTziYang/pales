@@ -7,10 +7,15 @@
 ..\..\Output\bsp_usart2.o: ..\..\User\stm32f10x_conf.h
 ..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_dma.h
 ..\..\Output\bsp_usart2.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_exti.h
+..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_flash.h
 ..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_fsmc.h
 ..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_i2c.h
 ..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
 ..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_sdio.h
+..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_spi.h
+..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
 ..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
 ..\..\Output\bsp_usart2.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\Output\bsp_usart2.o: C:\Keil\ARM\RV31\INC\stdio.h

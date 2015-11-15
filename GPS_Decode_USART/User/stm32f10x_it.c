@@ -150,9 +150,24 @@ void SysTick_Handler(void)
 /*  available peripheral interrupt handler's name please refer to the startup */
 /*  file (startup_stm32f10x_xx.s).                                            */
 /******************************************************************************/
+
+void EXTI1_IRQHandler(void)
+{
+   if(EXTI_GetITStatus(EXTI_Line1) != RESET)
+  {
+    
+    EXTI_ClearITPendingBit(EXTI_Line1);
+  
+  }
+   
+}
+
 void USART1_IRQHandler(void)
 {
-
+  if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)    
+       {       
+     USART_ClearITPendingBit(USART1,USART_IT_RXNE);     
+       }
 
 }
 

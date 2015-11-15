@@ -7,10 +7,15 @@
 ..\..\Output\gps_config.o: ..\..\User\stm32f10x_conf.h
 ..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_dma.h
 ..\..\Output\gps_config.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_exti.h
+..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_flash.h
 ..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_fsmc.h
 ..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_i2c.h
 ..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
 ..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_sdio.h
+..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_spi.h
+..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
 ..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
 ..\..\Output\gps_config.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\Output\gps_config.o: ..\..\User\nmea_decode\include\nmea/nmea.h

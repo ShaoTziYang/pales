@@ -6,10 +6,15 @@
 ..\..\Output\main.o: ..\..\User\stm32f10x_conf.h
 ..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_dma.h
 ..\..\Output\main.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_exti.h
+..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_flash.h
 ..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_fsmc.h
 ..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_i2c.h
 ..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
 ..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_sdio.h
+..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_spi.h
+..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
 ..\..\Output\main.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
 ..\..\Output\main.o: ..\..\Libraries\FWlib\inc\misc.h
 ..\..\Output\main.o: ..\..\User\usart\bsp_usart1.h
@@ -33,3 +38,8 @@
 ..\..\Output\main.o: ..\..\User\ff9\ffconf.h
 ..\..\Output\main.o: C:\Keil\ARM\RV31\INC\string.h
 ..\..\Output\main.o: ..\..\User\temp\temp.h
+..\..\Output\main.o: ..\..\User\imu\imu.h
+..\..\Output\main.o: ..\..\User\HAL_MPU6050.h
+..\..\Output\main.o: ..\..\User\sdcard\bsp_sdio_sdcard.h
+..\..\Output\main.o: ..\..\User\usart\bsp_usart2.h
+..\..\Output\main.o: ..\..\User\delay\delay.h

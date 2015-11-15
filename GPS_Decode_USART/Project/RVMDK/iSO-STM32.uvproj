@@ -345,7 +345,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\User\usart;..\..\User\sdcard;..\..\User\ff9;..\..\User\nmea_decode\include;..\..\User\gps;..\..\User\temp</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS;..\..\User;..\..\Libraries\FWlib\inc;..\..\User\usart;..\..\User\sdcard;..\..\User\ff9;..\..\User\nmea_decode\include;..\..\User\gps;..\..\User\temp;..\..\User\imu;..\..\User\delay;..\..\User\sys</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -594,6 +594,21 @@
               <FileName>temp.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\temp\temp.c</FilePath>
+            </File>
+            <File>
+              <FileName>imu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\imu\imu.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\delay\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\Sys\sys.c</FilePath>
             </File>
           </Files>
         </Group>
