@@ -1,0 +1,628 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\tziyang\Documents\GitHub\pales\GPS_Decode_USART\Project\RVMDK\iSO-STM32.uvproj
+Project File Date:  11/15/2015
+
+<h2>Output:</h2>
+Build target 'GPS'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(62): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(63): warning:  #177-D: variable "AccelGyro" was declared but never referenced
+..\..\User\main.c:      s16  AccelGyro[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c(64): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 10 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_sdio_sdcard.c...
+compiling bsp_usart2.c...
+compiling gps_config.c...
+compiling nema_decode_test.c...
+compiling temp.c...
+compiling imu.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h: ..\..\User\imu\imu.c: 7 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling diskio.c...
+compiling ff.c...
+..\..\User\ff9\ff.c(1653): warning:  #111-D: statement is unreachable
+..\..\User\ff9\ff.c:                    w = (w << 8) + b;                       /* Create a DBC */
+..\..\User\ff9\ff.c:                    ^
+..\..\User\ff9\ff.c: ..\..\User\ff9\ff.c: 1 warning, 0 errors
+compiling ccsbcs.c...
+compiling context.c...
+compiling generate.c...
+compiling generator.c...
+compiling gmath.c...
+..\..\User\nmea_decode\src\gmath.c(166): warning:  #550-D: variable "tan_sigma" was set but never used
+..\..\User\nmea_decode\src\gmath.c:           double tmp1, tmp2, tan_sigma, sin_alpha, cos_alpha, C, lambda_prev; 
+..\..\User\nmea_decode\src\gmath.c:                              ^
+..\..\User\nmea_decode\src\gmath.c(264): warning:  #550-D: variable "tan_sigma1" was set but never used
+..\..\User\nmea_decode\src\gmath.c:       double tan_sigma1, sigma1, sin_alpha, cos_alpha, sqr_cos_alpha, sqr_u, A, B;
+..\..\User\nmea_decode\src\gmath.c:              ^
+..\..\User\nmea_decode\src\gmath.c(264): warning:  #550-D: variable "cos_alpha" was set but never used
+..\..\User\nmea_decode\src\gmath.c:       double tan_sigma1, sigma1, sin_alpha, cos_alpha, sqr_cos_alpha, sqr_u, A, B;
+..\..\User\nmea_decode\src\gmath.c:                                             ^
+..\..\User\nmea_decode\src\gmath.c: ..\..\User\nmea_decode\src\gmath.c: 3 warnings, 0 errors
+compiling info.c...
+compiling parse.c...
+compiling parser.c...
+compiling sentence.c...
+compiling time.c...
+compiling tok.c...
+linking...
+Program Size: Code=23208 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 21 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=23208 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=23208 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'iSO-STM32'
+   deleting intermediate output files for target 'GPS'
+Build target 'GPS'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(62): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(63): warning:  #177-D: variable "AccelGyro" was declared but never referenced
+..\..\User\main.c:      s16  AccelGyro[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c(64): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 10 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_sdio_sdcard.c...
+compiling bsp_usart2.c...
+compiling gps_config.c...
+compiling nema_decode_test.c...
+compiling temp.c...
+compiling imu.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h: ..\..\User\imu\imu.c: 7 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling diskio.c...
+compiling ff.c...
+..\..\User\ff9\ff.c(1653): warning:  #111-D: statement is unreachable
+..\..\User\ff9\ff.c:                    w = (w << 8) + b;                       /* Create a DBC */
+..\..\User\ff9\ff.c:                    ^
+..\..\User\ff9\ff.c: ..\..\User\ff9\ff.c: 1 warning, 0 errors
+compiling ccsbcs.c...
+compiling context.c...
+compiling generate.c...
+compiling generator.c...
+compiling gmath.c...
+..\..\User\nmea_decode\src\gmath.c(166): warning:  #550-D: variable "tan_sigma" was set but never used
+..\..\User\nmea_decode\src\gmath.c:           double tmp1, tmp2, tan_sigma, sin_alpha, cos_alpha, C, lambda_prev; 
+..\..\User\nmea_decode\src\gmath.c:                              ^
+..\..\User\nmea_decode\src\gmath.c(264): warning:  #550-D: variable "tan_sigma1" was set but never used
+..\..\User\nmea_decode\src\gmath.c:       double tan_sigma1, sigma1, sin_alpha, cos_alpha, sqr_cos_alpha, sqr_u, A, B;
+..\..\User\nmea_decode\src\gmath.c:              ^
+..\..\User\nmea_decode\src\gmath.c(264): warning:  #550-D: variable "cos_alpha" was set but never used
+..\..\User\nmea_decode\src\gmath.c:       double tan_sigma1, sigma1, sin_alpha, cos_alpha, sqr_cos_alpha, sqr_u, A, B;
+..\..\User\nmea_decode\src\gmath.c:                                             ^
+..\..\User\nmea_decode\src\gmath.c: ..\..\User\nmea_decode\src\gmath.c: 3 warnings, 0 errors
+compiling info.c...
+compiling parse.c...
+compiling parser.c...
+compiling sentence.c...
+compiling time.c...
+compiling tok.c...
+linking...
+Program Size: Code=23208 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 21 Warning(s).
+Build target 'GPS'
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(62): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(64): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=26876 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 9 Warning(s).
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(62): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(63): warning:  #177-D: variable "AccelGyro" was declared but never referenced
+..\..\User\main.c:      s16  AccelGyro[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c(64): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 10 warnings, 0 errors
+..\..\User\main.c - 0 Error(s), 10 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=23208 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(62): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(64): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=26868 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 9 Warning(s).
+Build target 'GPS'
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(71): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(73): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=26952 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 9 Warning(s).
+Clean started: Project: 'iSO-STM32'
+   deleting intermediate output files for target 'GPS'
+Build target 'GPS'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(71): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(73): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 9 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling bsp_usart1.c...
+compiling bsp_sdio_sdcard.c...
+compiling bsp_usart2.c...
+compiling gps_config.c...
+compiling nema_decode_test.c...
+compiling temp.c...
+compiling imu.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h: ..\..\User\imu\imu.c: 7 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling diskio.c...
+compiling ff.c...
+..\..\User\ff9\ff.c(1653): warning:  #111-D: statement is unreachable
+..\..\User\ff9\ff.c:                    w = (w << 8) + b;                       /* Create a DBC */
+..\..\User\ff9\ff.c:                    ^
+..\..\User\ff9\ff.c: ..\..\User\ff9\ff.c: 1 warning, 0 errors
+compiling ccsbcs.c...
+compiling context.c...
+compiling generate.c...
+compiling generator.c...
+compiling gmath.c...
+..\..\User\nmea_decode\src\gmath.c(166): warning:  #550-D: variable "tan_sigma" was set but never used
+..\..\User\nmea_decode\src\gmath.c:           double tmp1, tmp2, tan_sigma, sin_alpha, cos_alpha, C, lambda_prev; 
+..\..\User\nmea_decode\src\gmath.c:                              ^
+..\..\User\nmea_decode\src\gmath.c(264): warning:  #550-D: variable "tan_sigma1" was set but never used
+..\..\User\nmea_decode\src\gmath.c:       double tan_sigma1, sigma1, sin_alpha, cos_alpha, sqr_cos_alpha, sqr_u, A, B;
+..\..\User\nmea_decode\src\gmath.c:              ^
+..\..\User\nmea_decode\src\gmath.c(264): warning:  #550-D: variable "cos_alpha" was set but never used
+..\..\User\nmea_decode\src\gmath.c:       double tan_sigma1, sigma1, sin_alpha, cos_alpha, sqr_cos_alpha, sqr_u, A, B;
+..\..\User\nmea_decode\src\gmath.c:                                             ^
+..\..\User\nmea_decode\src\gmath.c: ..\..\User\nmea_decode\src\gmath.c: 3 warnings, 0 errors
+compiling info.c...
+compiling parse.c...
+compiling parser.c...
+compiling sentence.c...
+compiling time.c...
+compiling tok.c...
+linking...
+Program Size: Code=26952 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 20 Warning(s).
+Build target 'GPS'
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(71): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(73): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=26956 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 9 Warning(s).
+Build target 'GPS'
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(63): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(65): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=26872 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 9 Warning(s).
+Build target 'GPS'
+compiling main.c...
+..\..\User\imu\imu.h(156): warning:  #1295-D: Deprecated declaration MPU6050_Initialize - give arg types
+..\..\User\imu\imu.h:   void MPU6050_Initialize(); 
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(165): warning:  #1295-D: Deprecated declaration IMU_USART_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_USART_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(166): warning:  #1295-D: Deprecated declaration IMU_RCC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_RCC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(167): warning:  #1295-D: Deprecated declaration IMU_GPIO_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_GPIO_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(168): warning:  #1295-D: Deprecated declaration IMU_EXTI_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_EXTI_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(169): warning:  #1295-D: Deprecated declaration IMU_NVIC_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_NVIC_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\imu\imu.h(170): warning:  #1295-D: Deprecated declaration IMU_I2C_Configuration - give arg types
+..\..\User\imu\imu.h:   void IMU_I2C_Configuration();
+..\..\User\imu\imu.h:        ^
+..\..\User\main.c(63): warning:  #177-D: variable "tempOut" was declared but never referenced
+..\..\User\main.c:      int tempOut=0;
+..\..\User\main.c:          ^
+..\..\User\main.c(65): warning:  #177-D: variable "TempBuffer" was declared but never referenced
+..\..\User\main.c:      s16  TempBuffer[7]={0};
+..\..\User\main.c:           ^
+..\..\User\main.c: ..\..\User\main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=26876 RO-data=568 RW-data=116 ZI-data=6100  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 9 Warning(s).
