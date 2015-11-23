@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ngai Cheung, HKUST, LIC=FYKZ9-429MS-VERHA-1XS4W-9LM2Q-F4C0H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DCM.DLL V1.13.0.0
+    Target DLL: STLink\ST-LINKIII-KEIL_SWO.dll
+Dialog DLL:      TCM.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+C:\Users\Ngai\Desktop\GPSproject\stm32f407RGT\stm32f407rgt\USER\Template.uvprojx
+Project File Date:  07/07/2015
+
+<h2>Output:</h2>
+Build target 'Template'
+compiling main.c...
+photo.h(1): warning:  #1-D: last line of file ends without a newline
+  #include "photo.c"
+1.8 TFT_display.h(115): warning:  #1295-D: Deprecated declaration picture_put_pixel - give arg types
+  void picture_put_pixel();
+1.8 TFT_display.h(116): warning:  #1295-D: Deprecated declaration do_picture - give arg types
+  void do_picture();
+1.8 TFT_display.h(117): warning:  #1295-D: Deprecated declaration picture_check - give arg types
+  void picture_check();
+Temperature_ADC.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif 
+gps.h(494): warning:  #1295-D: Deprecated declaration get_GPS_status - give arg types
+  u8 get_GPS_status();
+gps.h(495): warning:  #1295-D: Deprecated declaration get_GPS_valid - give arg types
+  u8 get_GPS_valid();
+gps.h(497): warning:  #1295-D: Deprecated declaration gps_frequently_call - give arg types
+  void gps_frequently_call();
+gps.h(501): warning:  #1295-D: Deprecated declaration GPS_init - give arg types
+  void GPS_init();
+main.c(4): warning:  #177-D: variable "ticks_usimg" was declared but never referenced
+  static u32 ticks_usimg=(u32)-1;
+main.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=38724 RO-data=2484 RW-data=16696 ZI-data=86464  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Ngai\Desktop\GPSproject\stm32f407RGT\stm32f407rgt\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Load "..\\OBJ\\Template.axf" 
+Erase Done.
+Programming Done.
+Application running ...
+</pre>
+</body>
+</html>
+f" 
+Erase Done.
+Programming Done.
+Application running ...
+recated declaration picture_put_pixel - give arg types
+  void picture_put_pixel();
+1.8 tft_display.h(116): warning:  #1295-D: Deprecated declaration do_picture - give arg types
+  void do_picture();
+1.8 tft_display.h(117): warning:  #1295-D: Deprecated declaration picture_check - give arg types
+  void picture_check();
+GPS.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=38524 RO-data=2484 RW-data=16696 ZI-data=86464  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Ngai\Desktop\GPSproject\stm32f407RGT\stm32f407rgt\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Load "..\\OBJ\\Template.axf" 
+Erase Done.
+Programming Done.
+Application running ...
+in.c(190): warning:  #1295-D: Deprecated declaration tft_update - give arg types
+                        tft_update();
+main.c(190): warning:  #77-D: this declaration has no storage class or type specifier
+                        tft_update();
+main.c(190): error:  #147: declaration is incompatible with "void tft_update(void)" (declared at line 114 of "1.8 TFT_display.h")
+                        tft_update();
+main.c(196): error:  #169: expected a declaration
+                }
+main.c(214): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+main.c(3): warning:  #177-D: variable "ticks_msimg" was declared but never referenced
+  static u32 ticks_msimg = (u32)-1;
+main.c(4): warning:  #177-D: variable "ticks_usimg" was declared but never referenced
+  static u32 ticks_usimg=(u32)-1;
+main.c: 16 warnings, 13 errors
+"..\OBJ\Template.axf" - 13 Error(s), 16 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Ngai\Desktop\GPSproject\stm32f407RGT\stm32f407rgt\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
